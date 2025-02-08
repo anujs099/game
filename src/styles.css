@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+  margin: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  .main-area,
+  .table-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40vh;
+  }
+  .play-item {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+  }
+  .selected-item {
+    background-color: red;
+  }
+}
+table {
+  border: 1.5px solid black;
+  font-size: medium;
+  width: 100%;
+}
+th,
+td {
+  border: 1.5px solid black;
+}
